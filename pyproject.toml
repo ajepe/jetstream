@@ -1,0 +1,17 @@
+[metadata]
+name = 'migrator'
+version = '0.0.1'
+description = ''
+author = 'Babatope Ajepe'
+author_email = 'ajepebabatope@gmail.com'
+license = 'mit'
+url = 'https://github.com/ajepe/migrator'
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
