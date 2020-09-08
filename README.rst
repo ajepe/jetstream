@@ -20,9 +20,10 @@ Usage
 .. code-block:: python
 
 def up('model.name', lambda cr: (
-    cr.add('product_id', ref="product.product', type="Integer", default=2, index=True),
-    cr.rename('product_id', "product_product_id'),
+    cr.add('product_id', ref="product.product', type="Integer", default=2, index=True), 
+    cr.rename('product_id', "product_product_id'), 
     cr.delete(soft=True),
+
 ))
   
 
